@@ -1,6 +1,5 @@
 package net.thecanadian0417.extraarmor.datagen;
 
-import com.google.common.eventbus.Subscribe;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

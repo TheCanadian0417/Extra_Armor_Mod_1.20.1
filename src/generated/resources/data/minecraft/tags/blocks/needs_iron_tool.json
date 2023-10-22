@@ -1,0 +1,14 @@
+{
+  "values": [
+    "extra_armor:chromium_ore",
+    "extra_armor:deepslate_chromium_ore",
+    "extra_armor:titanium_ore",
+    "extra_armor:deepslate_titanium_ore",
+    "extra_armor:platinum_ore",
+    "extra_armor:deepslate_platinum_ore",
+    "extra_armor:steel_block",
+    "extra_armor:chromium_block",
+    "extra_armor:titanium_block",
+    "extra_armor:platinum_block"
+  ]
+}

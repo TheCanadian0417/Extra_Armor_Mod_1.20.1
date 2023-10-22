@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "chromium_ingot",
+  "ingredient": {
+    "item": "extra_armor:raw_chromium"
+  },
+  "result": "extra_armor:chromium_ingot"
+}
