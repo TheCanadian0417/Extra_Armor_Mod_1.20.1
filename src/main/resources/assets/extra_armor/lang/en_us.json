@@ -1,0 +1,29 @@
+{
+  "item.extra_armor.tungsten_ingot": "Tungsten Ingot",
+  "item.extra_armor.raw_tungsten": "Raw Tungsten",
+  "item.extra_armor.chromium_ingot": "Chromium Ingot",
+  "item.extra_armor.raw_chromium": "Raw Chromium",
+  "item.extra_armor.steel_ingot": "Steel Ingot",
+  "item.extra_armor.titanium_ingot": "Titanium Ingot",
+  "item.extra_armor.raw_titanium": "Raw Titanium",
+  "item.extra_armor.platinum_ingot": "Platinum Ingot",
+  "item.extra_armor.raw_platinum": "Raw Platinum",
+  "item.extra_armor.metal_detector": "Metal Detector",
+
+  "block.extra_armor.tungsten_block": "Tungsten Block",
+  "block.extra_armor.chromium_block": "Chromium Block",
+  "block.extra_armor.steel_block": "Steel Block",
+  "block.extra_armor.titanium_block": "Titanium Block",
+  "block.extra_armor.platinum_block": "Platinum Block",
+
+  "block.extra_armor.tungsten_ore": "Tungsten Ore",
+  "block.extra_armor.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.extra_armor.chromium_ore": "Chromium Ore",
+  "block.extra_armor.deepslate_chromium_ore": "Deepslate Chromium Ore",
+  "block.extra_armor.titanium_ore": "Titanium Ore",
+  "block.extra_armor.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.extra_armor.platinum_ore": "Platinum Ore",
+  "block.extra_armor.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
+  "creativetab.extra_armor_materials": "Extra Armor Materials"
+}
