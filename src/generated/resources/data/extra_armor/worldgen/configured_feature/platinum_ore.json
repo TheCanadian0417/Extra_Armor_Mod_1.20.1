@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "extra_armor:tungsten_ore"
+          "Name": "extra_armor:platinum_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
@@ -15,7 +15,7 @@
       },
       {
         "state": {
-          "Name": "extra_armor:deepslate_tungsten_ore"
+          "Name": "extra_armor:deepslate_platinum_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
