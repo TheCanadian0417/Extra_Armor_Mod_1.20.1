@@ -25,5 +25,8 @@
   "block.extra_armor.platinum_ore": "Platinum Ore",
   "block.extra_armor.deepslate_platinum_ore": "Deepslate Platinum Ore",
 
-  "creativetab.extra_armor_materials": "Extra Armor Materials"
+  "creativetab.extra_armor_materials": "Extra Armor Materials",
+
+  "tooltip.extra_armor.metal_detector.tooltip.shift": "Finds Precious Metals",
+  "tooltip.extra_armor.metal_detector.tooltip": "Press §eSHIFT§r for more Information"
 }

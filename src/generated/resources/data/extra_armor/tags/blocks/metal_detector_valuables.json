@@ -7,7 +7,6 @@
     "extra_armor:titanium_ore",
     "extra_armor:deepslate_titanium_ore",
     "extra_armor:platinum_ore",
-    "extra_armor:deepslate_platinum_ore",
-    "#forge:ores"
+    "extra_armor:deepslate_platinum_ore"
   ]
 }
