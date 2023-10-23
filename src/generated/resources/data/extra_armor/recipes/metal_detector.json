@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "extra_armor:tungsten_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  S",
+    " # ",
+    "I  "
+  ],
+  "result": {
+    "item": "extra_armor:metal_detector"
+  },
+  "show_notification": true
+}
