@@ -2,6 +2,7 @@ package net.thecanadian0417.extraarmor.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -80,6 +81,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("###")
                 .pattern("###")
                 .define('#', ModItems.PLATINUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.METAL_DETECTOR.get())
+                .pattern("  S")
+                .pattern(" # ")
+                .pattern("I  ")
+                .define('S', Items.STICK)
+                .define('#', Items.DIAMOND)
+                .define('I', ModItems.TUNGSTEN_INGOT.get())
                 .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
                 .save(pWriter);
 
