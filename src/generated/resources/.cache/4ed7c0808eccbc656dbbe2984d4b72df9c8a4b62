@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-22T19:14:39.9772257	Item Models: extra_armor
+// 1.20.1	2023-10-23T21:31:02.4689027	Item Models: extra_armor
 3304e59a94645a8e3750cded7059d8ee3cf6bacf assets/extra_armor/models/item/chromium_ingot.json
 33bf3003b529e8d2e947275b085d4642466d31e3 assets/extra_armor/models/item/metal_detector.json
 8fa48845366e9d67bb5ac681e1df1a6cde2bfa14 assets/extra_armor/models/item/platinum_ingot.json
@@ -6,6 +6,21 @@ c646576764acf5496205675913d02018b4450742 assets/extra_armor/models/item/raw_chro
 a1cc4104f23579dbef863d27f711d85885ed1fb8 assets/extra_armor/models/item/raw_platinum.json
 98ef8083ab059a365201ed29c3920e3de7bda7c0 assets/extra_armor/models/item/raw_titanium.json
 a1ed52e6bb95a05be149da6d3384faa7b48aa2cc assets/extra_armor/models/item/raw_tungsten.json
+ac3555ce76463b70211eac25b60b7dc208e2118b assets/extra_armor/models/item/steel_axe.json
+25664922192e3b50125f8c32364aeffd42fae353 assets/extra_armor/models/item/steel_hoe.json
 5f56681890aca29613f923da0ac37375053c8ea6 assets/extra_armor/models/item/steel_ingot.json
+a5e1c022bf96f9cff025944ae48746201297682d assets/extra_armor/models/item/steel_pickaxe.json
+51810af1f0426d35985b1084e3f06dd487ca5fdb assets/extra_armor/models/item/steel_shovel.json
+ffb38ac3c42b9ef28de77bc5665332c4e2ac43b9 assets/extra_armor/models/item/steel_sword.json
+48946dcc02811a1c647077f761141a17cc4ca748 assets/extra_armor/models/item/titanium_axe.json
+4bb424fdd24d17557aca1859e9ce93c4551dd99e assets/extra_armor/models/item/titanium_hoe.json
 cf2da1bac484f855caacce8538cf5ea22c63d51b assets/extra_armor/models/item/titanium_ingot.json
+3c121aa95bbf3a80dc86f5638cfde5686ccdb823 assets/extra_armor/models/item/titanium_pickaxe.json
+8700cdf5dbd8444b35e657308e81045b0bce271e assets/extra_armor/models/item/titanium_shovel.json
+d8019f6a7ea607524cfa8df416b124ae30bdbd8d assets/extra_armor/models/item/titanium_sword.json
+00ac7f0b9f4901afc02ce1c186fabc4f011da2c0 assets/extra_armor/models/item/tungsten_axe.json
+4f4aad3d81ebd99233b95295fe7e50be109df403 assets/extra_armor/models/item/tungsten_hoe.json
 7ef209930ca59a5ff4393d91b86e029ded7c423a assets/extra_armor/models/item/tungsten_ingot.json
+c50a397830c12f0e98ddb884cdf1a0ca2ac19387 assets/extra_armor/models/item/tungsten_pickaxe.json
+f3f23194bfd0421c856c44c1dbf03fac57e3a980 assets/extra_armor/models/item/tungsten_shovel.json
+c0fc99e095e34a9ff2b8865a00e5f071e1b02aa7 assets/extra_armor/models/item/tungsten_sword.json

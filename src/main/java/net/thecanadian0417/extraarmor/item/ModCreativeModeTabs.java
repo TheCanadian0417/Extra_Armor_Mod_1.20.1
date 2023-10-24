@@ -29,6 +29,24 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_PLATINUM.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
+                        pOutput.accept(ModItems.TUNGSTEN_SWORD.get());
+                        pOutput.accept(ModItems.TUNGSTEN_PICKAXE.get());
+                        pOutput.accept(ModItems.TUNGSTEN_SHOVEL.get());
+                        pOutput.accept(ModItems.TUNGSTEN_AXE.get());
+                        pOutput.accept(ModItems.TUNGSTEN_HOE.get());
+
+                        pOutput.accept(ModItems.STEEL_SWORD.get());
+                        pOutput.accept(ModItems.STEEL_PICKAXE.get());
+                        pOutput.accept(ModItems.STEEL_SHOVEL.get());
+                        pOutput.accept(ModItems.STEEL_AXE.get());
+                        pOutput.accept(ModItems.STEEL_HOE.get());
+
+                        pOutput.accept(ModItems.TITANIUM_SWORD.get());
+                        pOutput.accept(ModItems.TITANIUM_PICKAXE.get());
+                        pOutput.accept(ModItems.TITANIUM_SHOVEL.get());
+                        pOutput.accept(ModItems.TITANIUM_AXE.get());
+                        pOutput.accept(ModItems.TITANIUM_HOE.get());
+
                         pOutput.accept(ModBlocks.TUNGSTEN_BLOCK.get());
                         pOutput.accept(ModBlocks.CHROMIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());

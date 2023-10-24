@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "extra_armor:titanium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "extra_armor:titanium_hoe"
+  },
+  "show_notification": true
+}

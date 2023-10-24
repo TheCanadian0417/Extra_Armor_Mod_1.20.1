@@ -29,6 +29,24 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PLATINUM_INGOT);
         simpleItem(ModItems.RAW_PLATINUM);
         simpleItem(ModItems.METAL_DETECTOR);
+
+        handheldItem(ModItems.TUNGSTEN_SWORD);
+        handheldItem(ModItems.TUNGSTEN_PICKAXE);
+        handheldItem(ModItems.TUNGSTEN_SHOVEL);
+        handheldItem(ModItems.TUNGSTEN_AXE);
+        handheldItem(ModItems.TUNGSTEN_HOE);
+
+        handheldItem(ModItems.STEEL_SWORD);
+        handheldItem(ModItems.STEEL_PICKAXE);
+        handheldItem(ModItems.STEEL_SHOVEL);
+        handheldItem(ModItems.STEEL_AXE);
+        handheldItem(ModItems.STEEL_HOE);
+
+        handheldItem(ModItems.TITANIUM_SWORD);
+        handheldItem(ModItems.TITANIUM_PICKAXE);
+        handheldItem(ModItems.TITANIUM_SHOVEL);
+        handheldItem(ModItems.TITANIUM_AXE);
+        handheldItem(ModItems.TITANIUM_HOE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -36,4 +54,11 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(ExtraArmor.MOD_ID,"item/" + item.getId().getPath()));
     }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ExtraArmor.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
 }

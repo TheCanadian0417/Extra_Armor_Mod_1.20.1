@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "extra_armor:tungsten_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " S "
+  ],
+  "result": {
+    "item": "extra_armor:tungsten_sword"
+  },
+  "show_notification": true
+}

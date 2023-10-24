@@ -91,7 +91,142 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .define('#', Items.DIAMOND)
                 .define('I', ModItems.TUNGSTEN_INGOT.get())
-                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TUNGSTEN_PICKAXE.get())
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STEEL_PICKAXE.get())
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TITANIUM_PICKAXE.get())
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TUNGSTEN_SWORD.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STEEL_SWORD.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TITANIUM_SWORD.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TUNGSTEN_AXE.get())
+                .pattern("## ")
+                .pattern("#S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STEEL_AXE.get())
+                .pattern("## ")
+                .pattern("#S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TITANIUM_AXE.get())
+                .pattern("## ")
+                .pattern("#S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TUNGSTEN_SHOVEL.get())
+                .pattern(" # ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STEEL_SHOVEL.get())
+                .pattern(" # ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TITANIUM_SHOVEL.get())
+                .pattern(" # ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TUNGSTEN_HOE.get())
+                .pattern("## ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STEEL_HOE.get())
+                .pattern("## ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.TITANIUM_HOE.get())
+                .pattern("## ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModItems.TUNGSTEN_INGOT.get(), 9)
