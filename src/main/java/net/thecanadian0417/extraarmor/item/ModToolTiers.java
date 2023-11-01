@@ -15,7 +15,7 @@ import java.util.List;
 public class ModToolTiers {
     public static final Tier TUNGSTEN = TierSortingRegistry.registerTier(
             new ForgeTier(5,2500, 10f, 5f,20,
-                    ModTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(ModItems.TUNGSTEN_INGOT.get())),
+                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.TUNGSTEN_INGOT.get())),
             new ResourceLocation(ExtraArmor.MOD_ID, "tungsten"), List.of(Tiers.NETHERITE), List.of());
 
     public static final Tier STEEL = TierSortingRegistry.registerTier(

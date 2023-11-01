@@ -17,6 +17,10 @@ public class ModTags {
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(ExtraArmor.MOD_ID, name));
         }
+
+        private static TagKey<Block> forgeTag(String name) {
+            return BlockTags.create(new ResourceLocation("forge", name));
+        }
     }
 
     public static class Items {
