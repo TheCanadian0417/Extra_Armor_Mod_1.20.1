@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-23T21:46:12.6358702	Tags for minecraft:block mod id extra_armor
+// 1.20.1	2023-11-01T18:37:26.788647	Tags for minecraft:block mod id extra_armor
 4df5d1f86a51deec2f14d9ea0c3dc1437f7f9436 data/extra_armor/tags/blocks/metal_detector_valuables.json
-406e6555b20428cf14d068df0fbd275905db7fbe data/extra_armor/tags/blocks/needs_steel_tool.json
+1e0811e7320d9acdb7079d0febba8864ab873d54 data/extra_armor/tags/blocks/needs_steel_tool.json
 406e6555b20428cf14d068df0fbd275905db7fbe data/minecraft/tags/blocks/mineable/pickaxe.json

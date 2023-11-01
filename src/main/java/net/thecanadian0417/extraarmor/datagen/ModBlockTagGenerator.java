@@ -43,15 +43,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
         this.tag(ModTags.Blocks.NEEDS_STEEL_TOOL)
-                .add(ModBlocks.TUNGSTEN_ORE.get(),
-                        ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get(),
-                        ModBlocks.CHROMIUM_ORE.get(),
+                .add(ModBlocks.CHROMIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_CHROMIUM_ORE.get(),
                         ModBlocks.TITANIUM_ORE.get(),
                         ModBlocks.DEEPSLATE_TITANIUM_ORE.get(),
                         ModBlocks.PLATINUM_ORE.get(),
                         ModBlocks.DEEPSLATE_PLATINUM_ORE.get(),
-                        ModBlocks.TUNGSTEN_BLOCK.get(),
                         ModBlocks.STEEL_BLOCK.get(),
                         ModBlocks.CHROMIUM_BLOCK.get(),
                         ModBlocks.TITANIUM_BLOCK.get(),
