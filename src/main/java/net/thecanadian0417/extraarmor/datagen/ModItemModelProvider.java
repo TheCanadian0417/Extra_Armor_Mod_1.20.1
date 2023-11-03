@@ -48,10 +48,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.TITANIUM_AXE);
         handheldItem(ModItems.TITANIUM_HOE);
 
-        simpleItem(ModItems.TUNGSTEN_HELMET);
-        simpleItem(ModItems.TUNGSTEN_CHESTPLATE);
-        simpleItem(ModItems.TUNGSTEN_LEGGINGS);
-        simpleItem(ModItems.TUNGSTEN_BOOTS);
+//        simpleItem(ModItems.TUNGSTEN_HELMET);
+//        simpleItem(ModItems.TUNGSTEN_CHESTPLATE);
+//        simpleItem(ModItems.TUNGSTEN_LEGGINGS);
+//        simpleItem(ModItems.TUNGSTEN_BOOTS);
 
         simpleItem(ModItems.CHROMIUM_HELMET);
         simpleItem(ModItems.CHROMIUM_CHESTPLATE);

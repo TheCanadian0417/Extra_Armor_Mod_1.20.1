@@ -21,6 +21,16 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TUNGSTEN_HELMET.get(),
+                        ModItems.TUNGSTEN_CHESTPLATE.get(),
+                        ModItems.TUNGSTEN_LEGGINGS.get(),
+                        ModItems.TUNGSTEN_BOOTS.get(),
+                        ModItems.CHROMIUM_HELMET.get(),
+                        ModItems.CHROMIUM_CHESTPLATE.get(),
+                        ModItems.CHROMIUM_LEGGINGS.get(),
+                        ModItems.CHROMIUM_BOOTS.get()
+                );
 
     }
 
