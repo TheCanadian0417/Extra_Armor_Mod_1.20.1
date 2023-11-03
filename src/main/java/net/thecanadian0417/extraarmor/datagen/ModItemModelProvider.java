@@ -47,6 +47,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.TITANIUM_SHOVEL);
         handheldItem(ModItems.TITANIUM_AXE);
         handheldItem(ModItems.TITANIUM_HOE);
+
+        simpleItem(ModItems.TUNGSTEN_HELMET);
+        simpleItem(ModItems.TUNGSTEN_CHESTPLATE);
+        simpleItem(ModItems.TUNGSTEN_LEGGINGS);
+        simpleItem(ModItems.TUNGSTEN_BOOTS);
+
+        simpleItem(ModItems.CHROMIUM_HELMET);
+        simpleItem(ModItems.CHROMIUM_CHESTPLATE);
+        simpleItem(ModItems.CHROMIUM_LEGGINGS);
+        simpleItem(ModItems.CHROMIUM_BOOTS);
+
+        simpleItem(ModItems.TITANIUM_HELMET);
+        simpleItem(ModItems.TITANIUM_CHESTPLATE);
+        simpleItem(ModItems.TITANIUM_LEGGINGS);
+        simpleItem(ModItems.TITANIUM_BOOTS);
+
+        simpleItem(ModItems.PLATINUM_HELMET);
+        simpleItem(ModItems.PLATINUM_CHESTPLATE);
+        simpleItem(ModItems.PLATINUM_LEGGINGS);
+        simpleItem(ModItems.PLATINUM_BOOTS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -17,49 +17,69 @@ public class ModCreativeModeTabs {
     public static final RegistryObject<CreativeModeTab> EXTRA_ARMOR_MATERIALS = CREATIVE_MODE_TABS.register("extra_armor_materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TUNGSTEN_INGOT.get()))
                     .title(Component.translatable("creativetab.extra_armor_materials"))
-                    .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.TUNGSTEN_INGOT.get());
-                        pOutput.accept(ModItems.RAW_TUNGSTEN.get());
-                        pOutput.accept(ModItems.CHROMIUM_INGOT.get());
-                        pOutput.accept(ModItems.RAW_CHROMIUM.get());
-                        pOutput.accept(ModItems.STEEL_INGOT.get());
-                        pOutput.accept(ModItems.TITANIUM_INGOT.get());
-                        pOutput.accept(ModItems.RAW_TITANIUM.get());
-                        pOutput.accept(ModItems.PLATINUM_INGOT.get());
-                        pOutput.accept(ModItems.RAW_PLATINUM.get());
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                    .displayItems((pParameters, output) -> {
+                        output.accept(ModItems.TUNGSTEN_INGOT.get());
+                        output.accept(ModItems.RAW_TUNGSTEN.get());
+                        output.accept(ModItems.CHROMIUM_INGOT.get());
+                        output.accept(ModItems.RAW_CHROMIUM.get());
+                        output.accept(ModItems.STEEL_INGOT.get());
+                        output.accept(ModItems.TITANIUM_INGOT.get());
+                        output.accept(ModItems.RAW_TITANIUM.get());
+                        output.accept(ModItems.PLATINUM_INGOT.get());
+                        output.accept(ModItems.RAW_PLATINUM.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
 
-                        pOutput.accept(ModItems.TUNGSTEN_SWORD.get());
-                        pOutput.accept(ModItems.TUNGSTEN_PICKAXE.get());
-                        pOutput.accept(ModItems.TUNGSTEN_SHOVEL.get());
-                        pOutput.accept(ModItems.TUNGSTEN_AXE.get());
-                        pOutput.accept(ModItems.TUNGSTEN_HOE.get());
+                        output.accept(ModItems.TUNGSTEN_SWORD.get());
+                        output.accept(ModItems.TUNGSTEN_PICKAXE.get());
+                        output.accept(ModItems.TUNGSTEN_SHOVEL.get());
+                        output.accept(ModItems.TUNGSTEN_AXE.get());
+                        output.accept(ModItems.TUNGSTEN_HOE.get());
 
-                        pOutput.accept(ModItems.STEEL_SWORD.get());
-                        pOutput.accept(ModItems.STEEL_PICKAXE.get());
-                        pOutput.accept(ModItems.STEEL_SHOVEL.get());
-                        pOutput.accept(ModItems.STEEL_AXE.get());
-                        pOutput.accept(ModItems.STEEL_HOE.get());
+                        output.accept(ModItems.STEEL_SWORD.get());
+                        output.accept(ModItems.STEEL_PICKAXE.get());
+                        output.accept(ModItems.STEEL_SHOVEL.get());
+                        output.accept(ModItems.STEEL_AXE.get());
+                        output.accept(ModItems.STEEL_HOE.get());
 
-                        pOutput.accept(ModItems.TITANIUM_SWORD.get());
-                        pOutput.accept(ModItems.TITANIUM_PICKAXE.get());
-                        pOutput.accept(ModItems.TITANIUM_SHOVEL.get());
-                        pOutput.accept(ModItems.TITANIUM_AXE.get());
-                        pOutput.accept(ModItems.TITANIUM_HOE.get());
+                        output.accept(ModItems.TITANIUM_SWORD.get());
+                        output.accept(ModItems.TITANIUM_PICKAXE.get());
+                        output.accept(ModItems.TITANIUM_SHOVEL.get());
+                        output.accept(ModItems.TITANIUM_AXE.get());
+                        output.accept(ModItems.TITANIUM_HOE.get());
 
-                        pOutput.accept(ModBlocks.TUNGSTEN_BLOCK.get());
-                        pOutput.accept(ModBlocks.CHROMIUM_BLOCK.get());
-                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
-                        pOutput.accept(ModBlocks.TITANIUM_BLOCK.get());
-                        pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
-                        pOutput.accept(ModBlocks.TUNGSTEN_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
-                        pOutput.accept(ModBlocks.CHROMIUM_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_CHROMIUM_ORE.get());
-                        pOutput.accept(ModBlocks.TITANIUM_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
-                        pOutput.accept(ModBlocks.PLATINUM_ORE.get());
-                        pOutput.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE.get());
+                        output.accept(ModItems.TUNGSTEN_HELMET.get());
+                        output.accept(ModItems.TUNGSTEN_CHESTPLATE.get());
+                        output.accept(ModItems.TUNGSTEN_LEGGINGS.get());
+                        output.accept(ModItems.TUNGSTEN_BOOTS.get());
+
+                        output.accept(ModItems.CHROMIUM_HELMET.get());
+                        output.accept(ModItems.CHROMIUM_CHESTPLATE.get());
+                        output.accept(ModItems.CHROMIUM_LEGGINGS.get());
+                        output.accept(ModItems.CHROMIUM_BOOTS.get());
+
+                        output.accept(ModItems.TITANIUM_HELMET.get());
+                        output.accept(ModItems.TITANIUM_CHESTPLATE.get());
+                        output.accept(ModItems.TITANIUM_LEGGINGS.get());
+                        output.accept(ModItems.TITANIUM_BOOTS.get());
+
+                        output.accept(ModItems.PLATINUM_HELMET.get());
+                        output.accept(ModItems.PLATINUM_CHESTPLATE.get());
+                        output.accept(ModItems.PLATINUM_LEGGINGS.get());
+                        output.accept(ModItems.PLATINUM_BOOTS.get());
+
+                        output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
+                        output.accept(ModBlocks.CHROMIUM_BLOCK.get());
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.TITANIUM_BLOCK.get());
+                        output.accept(ModBlocks.PLATINUM_BLOCK.get());
+                        output.accept(ModBlocks.TUNGSTEN_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE.get());
+                        output.accept(ModBlocks.CHROMIUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_CHROMIUM_ORE.get());
+                        output.accept(ModBlocks.TITANIUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
+                        output.accept(ModBlocks.PLATINUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE.get());
                     })
                     .build());
 

@@ -229,6 +229,135 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TUNGSTEN_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CHROMIUM_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.CHROMIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_INGOT.get()), has(ModItems.CHROMIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TITANIUM_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PLATINUM_HELMET.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("   ")
+                .define('#', ModItems.PLATINUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TUNGSTEN_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CHROMIUM_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.CHROMIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_INGOT.get()), has(ModItems.CHROMIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TITANIUM_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PLATINUM_CHESTPLATE.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.PLATINUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TUNGSTEN_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CHROMIUM_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.CHROMIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_INGOT.get()), has(ModItems.CHROMIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TITANIUM_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PLATINUM_LEGGINGS.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.PLATINUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TUNGSTEN_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.TUNGSTEN_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TUNGSTEN_INGOT.get()), has(ModItems.TUNGSTEN_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CHROMIUM_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.CHROMIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.CHROMIUM_INGOT.get()), has(ModItems.CHROMIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.TITANIUM_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.TITANIUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.TITANIUM_INGOT.get()), has(ModItems.TITANIUM_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PLATINUM_BOOTS.get())
+                .pattern("   ")
+                .pattern("# #")
+                .pattern("# #")
+                .define('#', ModItems.PLATINUM_INGOT.get())
+                .unlockedBy(getHasName(ModItems.PLATINUM_INGOT.get()), has(ModItems.PLATINUM_INGOT.get()))
+                .save(pWriter);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModItems.TUNGSTEN_INGOT.get(), 9)
                 .requires(ModBlocks.TUNGSTEN_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.TUNGSTEN_BLOCK.get()), has(ModBlocks.TUNGSTEN_BLOCK.get()))

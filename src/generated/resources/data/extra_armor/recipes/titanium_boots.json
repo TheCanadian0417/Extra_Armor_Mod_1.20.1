@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "extra_armor:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "extra_armor:titanium_boots"
+  },
+  "show_notification": true
+}

@@ -3,11 +3,13 @@ package net.thecanadian0417.extraarmor.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.thecanadian0417.extraarmor.ExtraArmor;
 import net.thecanadian0417.extraarmor.block.ModBlocks;
+import net.thecanadian0417.extraarmor.item.ModItems;
 import net.thecanadian0417.extraarmor.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
@@ -20,8 +22,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider pProvider)
-    {
+    protected void addTags(HolderLookup.Provider pProvider)  {
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .add(ModBlocks.TUNGSTEN_ORE.get()).addTag(Tags.Blocks.ORES);
 
@@ -54,6 +55,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TITANIUM_BLOCK.get(),
                         ModBlocks.PLATINUM_BLOCK.get()
                 );
+
+
 
     }
 }

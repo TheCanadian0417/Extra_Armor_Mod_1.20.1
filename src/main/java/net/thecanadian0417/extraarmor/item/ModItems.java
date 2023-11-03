@@ -88,6 +88,58 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.TITANIUM, 3, 5, new Item.Properties().durability(2000)));
 
 
+    public static final RegistryObject<Item> TUNGSTEN_HELMET = ITEMS.register("tungsten_helmet",
+            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TUNGSTEN_CHESTPLATE = ITEMS.register("tungsten_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TUNGSTEN_LEGGINGS = ITEMS.register("tungsten_leggings",
+            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TUNGSTEN_BOOTS = ITEMS.register("tungsten_boots",
+            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
+
+    public static final RegistryObject<Item> CHROMIUM_HELMET = ITEMS.register("chromium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.HELMET,  new Item.Properties()));
+
+    public static final RegistryObject<Item> CHROMIUM_CHESTPLATE = ITEMS.register("chromium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+
+    public static final RegistryObject<Item> CHROMIUM_LEGGINGS = ITEMS.register("chromium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+
+    public static final RegistryObject<Item> CHROMIUM_BOOTS = ITEMS.register("chromium_boots",
+            () -> new ArmorItem(ModArmorMaterials.CHROMIUM, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
+
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
+
+    public static final RegistryObject<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.HELMET,  new Item.Properties()));
+
+    public static final RegistryObject<Item> PLATINUM_CHESTPLATE = ITEMS.register("platinum_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.CHESTPLATE,  new Item.Properties()));
+
+    public static final RegistryObject<Item> PLATINUM_LEGGINGS = ITEMS.register("platinum_leggings",
+            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS,  new Item.Properties()));
+
+    public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
+            () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.BOOTS,  new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

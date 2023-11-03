@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "extra_armor:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "item": "extra_armor:tungsten_boots"
+  },
+  "show_notification": true
+}

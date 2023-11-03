@@ -26,6 +26,26 @@
   "item.extra_armor.titanium_axe": "Titanium Axe",
   "item.extra_armor.titanium_hoe": "Titanium Hoe",
 
+  "item.extra_armor.tungsten_helmet": "Tungsten Helmet",
+  "item.extra_armor.tungsten_chestplate": "Tungsten Chestplate",
+  "item.extra_armor.tungsten_leggings": "Tungsten Leggings",
+  "item.extra_armor.tungsten_boots": "Tungsten Boots",
+
+  "item.extra_armor.chromium_helmet": "Chromium Helmet",
+  "item.extra_armor.chromium_chestplate": "Chromium Chestplate",
+  "item.extra_armor.chromium_leggings": "Chromium Leggings",
+  "item.extra_armor.chromium_boots": "Chromium Boots",
+
+  "item.extra_armor.titanium_helmet": "Titanium Helmet",
+  "item.extra_armor.titanium_chestplate": "Titanium Chestplate",
+  "item.extra_armor.titanium_leggings": "Titanium Leggings",
+  "item.extra_armor.titanium_boots": "Titanium Boots",
+
+  "item.extra_armor.platinum_helmet": "Platinum Helmet",
+  "item.extra_armor.platinum_chestplate": "Platinum Chestplate",
+  "item.extra_armor.platinum_leggings": "Platinum Leggings",
+  "item.extra_armor.platinum_boots": "Platinum Boots",
+
   "block.extra_armor.tungsten_block": "Tungsten Block",
   "block.extra_armor.chromium_block": "Chromium Block",
   "block.extra_armor.steel_block": "Steel Block",
