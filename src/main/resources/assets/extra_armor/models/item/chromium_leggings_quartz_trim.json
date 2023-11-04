@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "extra_armor:item/chromium_leggings",
+    "layer1": "minecraft:trims/items/leggings_trim_quartz"
+  }
+}

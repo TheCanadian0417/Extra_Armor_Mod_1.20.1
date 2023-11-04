@@ -53,10 +53,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 //        simpleItem(ModItems.TUNGSTEN_LEGGINGS);
 //        simpleItem(ModItems.TUNGSTEN_BOOTS);
 
-        simpleItem(ModItems.CHROMIUM_HELMET);
-        simpleItem(ModItems.CHROMIUM_CHESTPLATE);
-        simpleItem(ModItems.CHROMIUM_LEGGINGS);
-        simpleItem(ModItems.CHROMIUM_BOOTS);
+//        simpleItem(ModItems.CHROMIUM_HELMET);
+//        simpleItem(ModItems.CHROMIUM_CHESTPLATE);
+//        simpleItem(ModItems.CHROMIUM_LEGGINGS);
+//        simpleItem(ModItems.CHROMIUM_BOOTS);
 
         simpleItem(ModItems.TITANIUM_HELMET);
         simpleItem(ModItems.TITANIUM_CHESTPLATE);
