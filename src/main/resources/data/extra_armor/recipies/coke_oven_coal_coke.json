@@ -1,0 +1,10 @@
+{
+  "type": "extra_armor:coke_oven",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": "extra_armor:coal_coke"
+}

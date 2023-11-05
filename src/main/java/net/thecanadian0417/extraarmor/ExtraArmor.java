@@ -14,10 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thecanadian0417.extraarmor.block.ModBlocks;
-import net.thecanadian0417.extraarmor.block.entity.ModBlockEntities;
 import net.thecanadian0417.extraarmor.item.ModCreativeModeTabs;
 import net.thecanadian0417.extraarmor.item.ModItems;
-import net.thecanadian0417.extraarmor.recipe.ModRecipes;
 import net.thecanadian0417.extraarmor.screen.CokeOvenScreen;
 import net.thecanadian0417.extraarmor.screen.ModMenuTypes;
 import org.slf4j.Logger;
@@ -37,9 +35,6 @@ public class ExtraArmor {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModMenuTypes.register(modEventBus);
-        ModBlockEntities.register(modEventBus);
-        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
