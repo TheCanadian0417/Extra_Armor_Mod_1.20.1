@@ -66,6 +66,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PLATINUM_CHESTPLATE.get());
                         output.accept(ModItems.PLATINUM_LEGGINGS.get());
                         output.accept(ModItems.PLATINUM_BOOTS.get());
+                        output.accept(ModItems.COAL_COKE.get());
 
                         output.accept(ModBlocks.TUNGSTEN_BLOCK.get());
                         output.accept(ModBlocks.CHROMIUM_BLOCK.get());
