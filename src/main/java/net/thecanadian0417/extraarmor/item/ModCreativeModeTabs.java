@@ -80,6 +80,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
                         output.accept(ModBlocks.PLATINUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE.get());
+                        output.accept(ModBlocks.COKE_OVEN.get());
                     })
                     .build());
 

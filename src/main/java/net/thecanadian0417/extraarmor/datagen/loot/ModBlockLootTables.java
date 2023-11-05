@@ -46,6 +46,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.DEEPSLATE_PLATINUM_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_PLATINUM_ORE.get(), ModItems.RAW_PLATINUM.get()));
+
+        this.dropSelf(ModBlocks.COKE_OVEN.get());
     }
 
     @Override

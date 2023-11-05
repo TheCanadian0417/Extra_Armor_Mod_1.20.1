@@ -1,6 +1,7 @@
-// 1.20.1	2023-10-22T19:14:39.9737529	Loot Tables
+// 1.20.1	2023-11-04T17:33:52.4581774	Loot Tables
 669b35baef199c7b8ad89f2460abfa23b869b8f4 data/extra_armor/loot_tables/blocks/chromium_block.json
 28a46690c0d60781a2c186e800f9fe227160c05b data/extra_armor/loot_tables/blocks/chromium_ore.json
+d221bfbb4ef40c137ff8d4473d9c359d005da9a1 data/extra_armor/loot_tables/blocks/coke_oven.json
 e39a903185d5b4116c3340af39349b3be9a14281 data/extra_armor/loot_tables/blocks/deepslate_chromium_ore.json
 209d10d4811ecf29d8292ef2fd6c41bdbb4a0ec8 data/extra_armor/loot_tables/blocks/deepslate_platinum_ore.json
 9aa9335713f1a1d3e7d10f23c5b367d08ef72c92 data/extra_armor/loot_tables/blocks/deepslate_titanium_ore.json

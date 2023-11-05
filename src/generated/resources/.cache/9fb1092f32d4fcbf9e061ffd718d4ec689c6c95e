@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-02T19:50:52.8643812	Recipes
+// 1.20.1	2023-11-04T20:14:20.7744749	Recipes
 89ff4cf02bbfb198e11da05fcdf31b8db8c3d801 data/extra_armor/advancements/recipes/building_blocks/chromium_block.json
 c9c6503793e3422b57d56d0e5bdfc609df854cfe data/extra_armor/advancements/recipes/building_blocks/chromium_ingot.json
 01b916de7aab820417af7af0a9b7cf2a5105c4d4 data/extra_armor/advancements/recipes/building_blocks/chromium_ingot_from_blasting_chromium_ore.json
@@ -49,6 +49,7 @@ a2e9a45929c3d35da2c87a0769a93c020e059548 data/extra_armor/advancements/recipes/c
 cefeccef522ef8fa0cc99c6629b965b3bd1e35cb data/extra_armor/advancements/recipes/combat/tungsten_chestplate.json
 c4efbabd50f50aab723e7f9abdd62016f33e7cdf data/extra_armor/advancements/recipes/combat/tungsten_helmet.json
 f8985b259533775b3d230eb03229bc94c7e9217c data/extra_armor/advancements/recipes/combat/tungsten_leggings.json
+ec6cfc704a5b1f27f868595b0309b036a6e5407c data/extra_armor/advancements/recipes/misc/coke_oven.json
 e807acc28d365af43455092b2c6ef54b16712163 data/extra_armor/advancements/recipes/tools/metal_detector.json
 5a4be8e8c1fd2e7a1de064b81343a405c1ca4997 data/extra_armor/advancements/recipes/tools/steel_axe.json
 ba4ddddcf5907f1c14cd7e30cc68eccb244a582d data/extra_armor/advancements/recipes/tools/steel_hoe.json
@@ -77,6 +78,7 @@ f6cac983e5b27a5232bfcb20caf33a457eb001f6 data/extra_armor/recipes/chromium_ingot
 b69d907e9f98cc5058f8278899df80d9e95eac86 data/extra_armor/recipes/chromium_ingot_from_smelting_deepslate_chromium_ore.json
 2a5eb7a2883c60af51a29e1f3a974e8d68cd7bf3 data/extra_armor/recipes/chromium_ingot_from_smelting_raw_chromium.json
 8c6becfdf57c8fd3d779d04f469506b7f51bb8d8 data/extra_armor/recipes/chromium_leggings.json
+bf78d8d380055d9aface05aa1fe7a58af27d1cd1 data/extra_armor/recipes/coke_oven.json
 2216af3c6a0f8ea04c31f98d234ebc6a33895de0 data/extra_armor/recipes/metal_detector.json
 9daeb8beebcac4e78cb426dddb47f6a6d722083f data/extra_armor/recipes/platinum_block.json
 3a72d65880c9312fb48b4e64e3b71c5876a3f665 data/extra_armor/recipes/platinum_boots.json

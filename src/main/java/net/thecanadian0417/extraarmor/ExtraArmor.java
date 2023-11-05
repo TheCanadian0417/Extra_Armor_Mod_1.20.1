@@ -1,6 +1,7 @@
 package net.thecanadian0417.extraarmor;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,6 +16,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thecanadian0417.extraarmor.block.ModBlocks;
 import net.thecanadian0417.extraarmor.item.ModCreativeModeTabs;
 import net.thecanadian0417.extraarmor.item.ModItems;
+import net.thecanadian0417.extraarmor.screen.CokeOvenScreen;
+import net.thecanadian0417.extraarmor.screen.ModMenuTypes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -70,7 +73,11 @@ public class ExtraArmor {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            event.enqueueWork(() -> {
+                MenuScreens.register(ModMenuTypes.COKE_OVEN_MENU.get(), CokeOvenScreen::new);
+            });
         }
+
+
     }
 }
