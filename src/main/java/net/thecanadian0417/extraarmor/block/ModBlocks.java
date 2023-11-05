@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thecanadian0417.extraarmor.ExtraArmor;
+import net.thecanadian0417.extraarmor.block.custom.CokeOvenBlock;
 import net.thecanadian0417.extraarmor.item.ModItems;
 
 import java.util.function.Supplier;
@@ -58,6 +59,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+
+    public static final RegistryObject<Block> COKE_OVEN = registerBlock("coke_oven",
+            () -> new CokeOvenBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

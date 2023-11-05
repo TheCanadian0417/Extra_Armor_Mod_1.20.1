@@ -139,6 +139,9 @@ public class ModItems {
     public static final RegistryObject<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots",
             () -> new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.BOOTS,  new Item.Properties()));
 
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new Item(new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
