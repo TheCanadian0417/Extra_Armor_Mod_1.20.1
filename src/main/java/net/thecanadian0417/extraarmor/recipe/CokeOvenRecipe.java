@@ -45,8 +45,7 @@ public class CokeOvenRecipe extends AbstractCookingRecipe {
         public Serializer(int defaultCookingTime) {
             this.defaultCookingTime = defaultCookingTime;
         }
-        public CokeOvenRecipe fromJson(ResourceLocation pRecipeId, JsonObject pJson)
-        {
+        public CokeOvenRecipe fromJson(ResourceLocation pRecipeId, JsonObject pJson) {
             String s = GsonHelper.getAsString(pJson, "group", "");
             CookingBookCategory cookingbookcategory = CookingBookCategory.CODEC.byName(GsonHelper.getAsString(pJson, "category", (String) null), CookingBookCategory.MISC);
             JsonElement jsonelement = (JsonElement) (GsonHelper.isArrayNode(pJson, "ingredient") ? GsonHelper.getAsJsonArray(pJson, "ingredient") : GsonHelper.getAsJsonObject(pJson, "ingredient"));
@@ -69,8 +68,7 @@ public class CokeOvenRecipe extends AbstractCookingRecipe {
             return new CokeOvenRecipe(pRecipeId, s, cookingbookcategory, ingredient, itemstack, f, i);
         }
 
-        public CokeOvenRecipe fromNetwork(ResourceLocation pRecipeId, FriendlyByteBuf pBuffer)
-        {
+        public CokeOvenRecipe fromNetwork(ResourceLocation pRecipeId, FriendlyByteBuf pBuffer) {
             String s = pBuffer.readUtf();
             CookingBookCategory cookingbookcategory = pBuffer.readEnum(CookingBookCategory.class);
             Ingredient ingredient = Ingredient.fromNetwork(pBuffer);
@@ -80,8 +78,7 @@ public class CokeOvenRecipe extends AbstractCookingRecipe {
             return new CokeOvenRecipe(pRecipeId, s, cookingbookcategory, ingredient, itemstack, f, i);
         }
 
-        public void toNetwork(FriendlyByteBuf pBuffer, CokeOvenRecipe pRecipe)
-        {
+        public void toNetwork(FriendlyByteBuf pBuffer, CokeOvenRecipe pRecipe) {
             pBuffer.writeUtf(pRecipe.group);
             pBuffer.writeEnum(pRecipe.category());
             pRecipe.ingredient.toNetwork(pBuffer);

@@ -72,7 +72,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PLATINUM_BOOTS);
 
         simpleItem(ModItems.COAL_COKE);
-        complexBlock(ModBlocks.COKE_OVEN.get());
 
 
     }

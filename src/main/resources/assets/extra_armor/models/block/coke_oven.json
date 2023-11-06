@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"render_type": "minecraft:cutout",
 	"textures": {
 		"0": "extra_armor:block/coke_oven_wall",
 		"1": "extra_armor:block/fire_brick",

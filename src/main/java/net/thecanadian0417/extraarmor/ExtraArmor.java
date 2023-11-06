@@ -82,6 +82,8 @@ public class ExtraArmor {
         public static void onClientSetup(FMLClientSetupEvent event) {
             event.enqueueWork(() -> {
 
+                MenuScreens.register(ModMenuTypes.COKE_OVEN_MENU.get(), CokeOvenScreen::new);
+
             });
         }
 

@@ -30,9 +30,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_TITANIUM_ORE);
         blockWithItem(ModBlocks.PLATINUM_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_PLATINUM_ORE);
-        
-        horizontalBlock(ModBlocks.COKE_OVEN.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/coke_oven")));
 
     }
 
