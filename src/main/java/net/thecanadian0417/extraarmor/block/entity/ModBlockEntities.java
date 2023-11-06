@@ -13,10 +13,7 @@ public class ModBlockEntities {
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ExtraArmor.MOD_ID);
 
 
-    public static final RegistryObject<BlockEntityType<CokeOvenBlockEntity>> COKE_OVEN_BLOCK_ENTITY =
-            BLOCK_ENTITIES.register("coke_oven_block_entity", () ->
-                    BlockEntityType.Builder.of(CokeOvenBlockEntity::new,
-                            ModBlocks.COKE_OVEN.get()).build(null));
+
 
     public static void register(IEventBus eventBus) { BLOCK_ENTITIES.register(eventBus); }
 }

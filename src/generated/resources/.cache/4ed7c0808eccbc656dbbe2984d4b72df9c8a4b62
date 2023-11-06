@@ -1,6 +1,7 @@
-// 1.20.1	2023-11-04T20:23:13.3706284	Item Models: extra_armor
+// 1.20.1	2023-11-05T19:33:51.4552177	Item Models: extra_armor
 3304e59a94645a8e3750cded7059d8ee3cf6bacf assets/extra_armor/models/item/chromium_ingot.json
 57527d78e8c2e6c84040259d558f8467a5deda45 assets/extra_armor/models/item/coal_coke.json
+3dfee85978923c487c74ffb00f1407d45d0f0acb assets/extra_armor/models/item/coke_oven.json
 33bf3003b529e8d2e947275b085d4642466d31e3 assets/extra_armor/models/item/metal_detector.json
 ba624647bae1479ee48ce9ba015d5fd40d88e30d assets/extra_armor/models/item/platinum_boots.json
 48dc0a5d66eb07b98c0b9ec6fa5ab4e539b1e72b assets/extra_armor/models/item/platinum_chestplate.json

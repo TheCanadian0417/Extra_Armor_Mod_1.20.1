@@ -14,8 +14,6 @@ public class ModMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS =
             DeferredRegister.create(ForgeRegistries.MENU_TYPES, ExtraArmor.MOD_ID);
 
-    public static final RegistryObject<MenuType<CokeOvenMenu>> COKE_OVEN_MENU =
-            registerMenuType(CokeOvenMenu::new, "coke_oven_menu");
 
 
 
